@@ -10,7 +10,7 @@ Command-line search and stream movie torrents.
 
 **INSTALL:**
 
-`sudo npm install -g morrent`
+`npm install -g morrent`
 
 **USAGE:**
 

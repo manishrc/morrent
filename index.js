@@ -60,6 +60,6 @@ request(api_url(), function(error, response, body){
         return mv.MovieTitle == choice["movie"];
       });
       shell.echo("The Video will start playing in a while.");
-      shell.exec("peerflix "+movie["TorrentUrl"]+" --vlc");
+      shell.exec("peerflix "+movie["TorrentUrl"]+" --vlc",{silent:true});
   });
 });
