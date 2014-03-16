@@ -4,7 +4,7 @@
   "description": "Command-line search and stream movie torrents.",
   "main": "index.js",
   "scripts": {
-    "preinstall": "sudo npm i -g peerflix",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/manishrc/morrent",
   "bin": {
-    "morrent": "bin/morrent"
+    "morrent": "index.js"
   },
   "preferGlobal": true,
   "dependencies": {
